@@ -23,5 +23,4 @@ public class MongoConnector {
                 .getDatabase("mobileShop")
                 .withCodecRegistry(codecRegistry);
     }
-
 }
