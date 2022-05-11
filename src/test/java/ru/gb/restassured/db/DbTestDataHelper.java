@@ -22,4 +22,5 @@ public class DbTestDataHelper {
         getDataBase().getCollection("users")
                 .deleteOne(Filters.eq("id", userDto.getId()));
     }
+
 }
